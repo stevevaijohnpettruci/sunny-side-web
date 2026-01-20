@@ -1,0 +1,45 @@
+{
+  "categories": [
+    "Coffee Series",
+    "Non Coffee Series",
+    "Dessert Series",
+    "Food Series",
+    "Mocktail Series"
+  ],
+  "products": [
+    { "id": 1, "name": "Vietnam Drip", "price": 15000, "category": "Coffee Series" },
+    { "id": 2, "name": "Americano", "price": 10000, "category": "Coffee Series" },
+    { "id": 3, "name": "Espresso Shot", "price": 12000, "category": "Coffee Series" },
+    { "id": 4, "name": "Cappuccino", "price": 18000, "category": "Coffee Series" },
+    { "id": 5, "name": "Cafe Latte", "price": 20000, "category": "Coffee Series" },
+    { "id": 6, "name": "Caramel Macchiato", "price": 22000, "category": "Coffee Series" },
+
+    { "id": 7, "name": "Chocolate Milk", "price": 15000, "category": "Non Coffee Series" },
+    { "id": 8, "name": "Matcha Latte", "price": 20000, "category": "Non Coffee Series" },
+    { "id": 9, "name": "Red Velvet Latte", "price": 22000, "category": "Non Coffee Series" },
+    { "id": 10, "name": "Vanilla Milk", "price": 18000, "category": "Non Coffee Series" },
+    { "id": 11, "name": "Taro Latte", "price": 20000, "category": "Non Coffee Series" },
+    { "id": 12, "name": "Chocolate Hazelnut", "price": 23000, "category": "Non Coffee Series" },
+
+    { "id": 13, "name": "Chocolate Cake", "price": 25000, "category": "Dessert Series" },
+    { "id": 14, "name": "Cheese Cake", "price": 28000, "category": "Dessert Series" },
+    { "id": 15, "name": "Tiramisu", "price": 30000, "category": "Dessert Series" },
+    { "id": 16, "name": "Brownies", "price": 20000, "category": "Dessert Series" },
+    { "id": 17, "name": "Croissant", "price": 18000, "category": "Dessert Series" },
+    { "id": 18, "name": "Banana Cake", "price": 22000, "category": "Dessert Series" },
+
+    { "id": 19, "name": "French Fries", "price": 20000, "category": "Food Series" },
+    { "id": 20, "name": "Chicken Wings", "price": 30000, "category": "Food Series" },
+    { "id": 21, "name": "Chicken Nugget", "price": 25000, "category": "Food Series" },
+    { "id": 22, "name": "Beef Burger", "price": 35000, "category": "Food Series" },
+    { "id": 23, "name": "Spaghetti Bolognese", "price": 32000, "category": "Food Series" },
+    { "id": 24, "name": "Chicken Sandwich", "price": 28000, "category": "Food Series" },
+
+    { "id": 25, "name": "Lemon Squash", "price": 18000, "category": "Mocktail Series" },
+    { "id": 26, "name": "Blue Ocean", "price": 22000, "category": "Mocktail Series" },
+    { "id": 27, "name": "Strawberry Mojito", "price": 24000, "category": "Mocktail Series" },
+    { "id": 28, "name": "Lychee Tea Sparkle", "price": 23000, "category": "Mocktail Series" },
+    { "id": 29, "name": "Peach Soda", "price": 21000, "category": "Mocktail Series" },
+    { "id": 30, "name": "Orange Sunrise", "price": 20000, "category": "Mocktail Series" }
+  ]
+}

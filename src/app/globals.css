@@ -8,9 +8,16 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
+
+.stroke-text {
+  -webkit-text-stroke: 2px #3C74DB;
+}
+
+.stroke-text-white{
+  -webkit-text-stroke: 1px #ffffff;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -22,5 +29,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), Arial, Helvetica, sans-serif;
 }
