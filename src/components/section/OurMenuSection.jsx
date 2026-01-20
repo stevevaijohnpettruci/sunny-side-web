@@ -8,11 +8,31 @@ export const OurMenuSection = () => {
   const router = useRouter();
 
   const seriesList = [
-    { label: "Coffee Series", thumbnail: "/img/menu/coffee.png" },
-    { label: "Non Coffee Series", thumbnail: "/img/menu/non-coffee.png" },
-    { label: "Mocktail Series", thumbnail: "/img/menu/mocktail.png" },
-    { label: "Dessert Series", thumbnail: "/img/menu/dessert.png" },
-    { label: "Food Series", thumbnail: "/img/menu/food.png" },
+    {
+      label: "Coffee Series",
+      thumbnail: "/img/menu/coffee.png",
+      href: "/daftar-menu?category=Coffee+Series",
+    },
+    {
+      label: "Non Coffee Series",
+      thumbnail: "/img/menu/non-coffee.png",
+      href: "/daftar-menu?category=Non+Coffee+Series",
+    },
+    {
+      label: "Mocktail Series",
+      thumbnail: "/img/menu/mocktail.png",
+      href: "/daftar-menu?category=Mocktail+Series",
+    },
+    {
+      label: "Dessert Series",
+      thumbnail: "/img/menu/dessert.png",
+      href: "/daftar-menu?category=Dessert+Series",
+    },
+    {
+      label: "Food Series",
+      thumbnail: "/img/menu/food.png",
+      href: "/daftar-menu?category=Food+Series",
+    },
   ];
 
   return (
@@ -60,7 +80,10 @@ export const OurMenuSection = () => {
           {seriesList.map((item, index) => (
             <div key={index} className="flex flex-col gap-3">
               {/* CARD */}
-              <div className="group bg-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition cursor-pointer">
+              <div
+                onClick={() => router.push(item.href)}
+                className="group bg-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition cursor-pointer"
+              >
                 <div className="h-36 md:h-48 overflow-hidden">
                   <img
                     src={item.thumbnail}

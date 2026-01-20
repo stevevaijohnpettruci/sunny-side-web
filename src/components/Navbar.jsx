@@ -8,7 +8,7 @@ export const Navbar = () => {
   const menu = [
     { label: "MENU", href: "daftar-menu" },
     { label: "CERITA SUNNY", href: "cerita-sunny" },
-    { label: "RESERVASI SEKARANG", href: "https://wa.me/6287832282111" },
+    { label: "RESERVASI SEKARANG", href: "https://wa.me/6285861196708" },
   ];
 
   const [scrolled, setScrolled] = useState(false);
